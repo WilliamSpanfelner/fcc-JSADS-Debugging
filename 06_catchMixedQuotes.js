@@ -12,5 +12,6 @@ const allSameQuotes = 'I\'ve had a perfectly wonderful evening, but this wasn\'t
 value, or escape the existing ones.  Keep the double quote
 marks around the entire string. */
 
-let innerHtml = "<p>Click here to <a href="#Home">return</a></p>";
+let innerHtml = "<p>Click here to <a href=\"#Home\">return</a></p>";
 console.log(innerHtml);
+// <p>Click here to <a href="#Home">return</a></p>
