@@ -18,14 +18,14 @@ console.log(result, x, y);
 /* Fix the condition so the program run the right branch, and 
 the appropriate value is assigned to result. */
 
-let x = 7;
-let y = 9;
-let result = "to come";
+x = 7;
+y = 9;
+result = "to come";
 
-if (x = y) {
+if (x == y) {
     result = "Equal!";
 } else {
     result = "Not equal!";
 }
 
-console.log(result);
+console.log(result);  // Not equal!
