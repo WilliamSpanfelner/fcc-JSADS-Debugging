@@ -14,3 +14,18 @@ if (x = y) {
 
 console.log(result, x, y);
 // x was just assigned the value of y 2 2
+
+/* Fix the condition so the program run the right branch, and 
+the appropriate value is assigned to result. */
+
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if (x = y) {
+    result = "Equal!";
+} else {
+    result = "Not equal!";
+}
+
+console.log(result);
